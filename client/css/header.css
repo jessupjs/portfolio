@@ -1,0 +1,45 @@
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HEADER*/
+
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+/* topNameContain */
+#topNameContain {
+    height: 15px;
+    margin: 20px 0 0 0;
+    position: relative;
+}
+
+/* topName */
+.topName {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    transition: opacity 500ms ease-in-out;
+    width: 33.33vw;
+    z-index: 100;
+}
+
+/* topNameA */
+#topNameA {
+    opacity: 1;
+    position: relative;
+}
+
+/* topNameB */
+#topNameB {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+}
+
+.topName Img {
+    height: 100%;
+    object-fit: contain;
+}

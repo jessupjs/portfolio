@@ -1,0 +1,44 @@
+
+#slide2 {
+    align-items: center;
+    justify-content: center;
+}
+
+#container2 {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 100px 5% 50px 5%;
+    width: 88%
+}
+
+#statsBar {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#meImg {
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+}
+
+#bioBar {
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+}
+
+#textwrap2 {
+    width: 80%;
+}
+
+#textwrap2 p {
+    border-right: 1px solid black;
+    line-height: 140%;
+    padding: 10px 20px 10px 0;
+}
+
+#footnotes2 {
+    width: 20%;
+}

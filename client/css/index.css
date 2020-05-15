@@ -1,0 +1,54 @@
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ GEN*/
+.slide {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.breakbox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 90%;
+}
+
+.containerBB h2 {
+    font-family: "Space Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.colorLine {
+    height: 5px;
+    margin: 5px 0 0 0;
+    width: 100%;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FONT*/
+.decoSerif-h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 90px;
+}
+
+.decoSerif-h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+}
+
+.roboto300-p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+

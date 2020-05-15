@@ -1,0 +1,214 @@
+
+#slide1 {
+    height: 100vh;
+    min-height: 712px;
+    justify-content: center;
+}
+
+#container1 {
+    flex-flow: row wrap;
+    height: 100%;
+    width: 90%
+}
+
+.side {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 25%;
+}
+
+.theFabric {
+    display: flex;
+    flex-flow: column wrap;
+    height: 80%;
+    justify-content: space-between;
+    margin: 0 0 0 0;
+    position: relative;
+    width: 90%;
+}
+
+.pattern {
+    height: 47.5%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#patternAi {
+    background: rgba(0, 0, 32, 1) url("../assets/patterns/jj_daintelyChiseled-white.png") 0 100% / 280px repeat;
+}
+
+#patternAii {
+    background: rgba(255, 255, 255, 1) url("../assets/patterns/jj_daintelyChiseled.png") 0 0 / 280px repeat;
+}
+
+#patternBi {
+    background: rgba(255, 255, 255, 1) url("../assets/patterns/jj_indigoRains.png") 0 100% / 300px repeat;
+}
+
+#patternBii {
+    background: rgba(0, 0, 32, 1) url("../assets/patterns/jj_indigoRains-white.png") 0 0 / 300px repeat;
+}
+
+#patternCi {
+    background: rgba(0, 0, 32, 1) url("../assets/patterns/jj_crossesColumn-white.png") 0 100% / 270px repeat;
+}
+
+#patternCii {
+    background: rgba(255, 255, 255, 1) url("../assets/patterns/jj_crossesColumn.png") 0 0 / 270px repeat;
+}
+
+#patternDi {
+    background: rgba(255, 255, 255, 1) url("../assets/patterns/jj_stacksSpirals.png") 0 100% / 600px repeat;
+}
+
+#patternDii {
+    background: rgba(0, 0, 32, 1) url("../assets/patterns/jj_stacksSpirals-white.png") 0 0 / 600px repeat;
+}
+
+.float {
+    position: absolute;
+}
+
+.floatI {
+    top: 12%;
+}
+#floatDi {
+    color: black;
+    right: 50%;
+}
+
+#floatCi {
+    color: white;
+    right: -50%;
+}
+
+#floatBi {
+    color: black;
+    right: -150%;
+}
+
+#floatAi {
+    color: white;
+    right: -250%;
+}
+
+.floatIi {
+    bottom: -20%;
+}
+
+#floatAii {
+    color: white;
+    left: 50%;
+}
+
+#floatBii {
+    color: black;
+    left: -50%;
+}
+
+#floatCii {
+    color: white;
+    left: -150%;
+}
+
+#floatDii {
+    color: black;
+    left: -250%;
+}
+
+.floatIii {
+    top: -25%;
+}
+
+#floatAiii {
+    color: black;
+    left: 50%;
+}
+
+#floatBiii {
+    color: white;
+    left: -50%;
+}
+
+#floatCiii {
+    color: black;
+    left: -150%;
+}
+
+#floatDiii {
+    color: white;
+    left: -250%;
+}
+
+.floatIv {
+    bottom: 12%;
+}
+
+#floatDiv {
+    color: white;
+    right: 50%;
+}
+
+#floatCiv {
+    color: black;
+    right: -50%;
+}
+
+#floatBiv {
+    color: white;
+    right: -150%;
+}
+
+#floatAiv {
+    color: black;
+    right: -250%;
+}
+
+.float span {
+    position: relative;
+}
+
+.halo {
+    border-radius: 50%;
+    height: 200px;
+    left: -75px;
+    position: absolute;
+    top: -50px;
+    width: 200px;
+}
+
+.haloI {
+}
+
+#haloDi, #haloBi {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#haloCi, #haloAi {
+    background-color: rgba(255, 0, 128, 0.5);
+}
+
+.haloIi, .haloIii {
+}
+
+#haloDii, #haloBii, #haloCiii, #halo1C {
+    background-color: rgba(255, 0, 255, 0.5);
+}
+
+#haloCii, #haloAii, #haloDiii, #haloBiii {
+    background-color: rgba(128, 0, 255, 0.5);
+}
+
+.haloIv {
+}
+
+#haloDiv, #haloBiv {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+#haloCiv, #haloAiv {
+    background-color: rgba(255, 0, 0, 0.5);
+}
