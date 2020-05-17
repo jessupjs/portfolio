@@ -40,6 +40,11 @@
     font-size: 90px;
 }
 
+.decoSerif-h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 45px;
+}
+
 .decoSerif-h3 {
     font-family: 'DM Serif Display', serif;
     font-size: 30px;
@@ -49,6 +54,13 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.roboto300-p2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
     letter-spacing: 1px;
 }
 

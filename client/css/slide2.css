@@ -26,19 +26,39 @@
 #bioBar {
     display: flex;
     flex-flow: row wrap;
-    width: 70%;
+    justify-content: center;
+    position: relative;
+    right: 7.5%;
+    width: 65%;
 }
 
-#textwrap2 {
-    width: 80%;
+#textwrap {
+    width: 90%;
 }
 
-#textwrap2 p {
-    border-right: 1px solid black;
+#textwrap p {
     line-height: 140%;
-    padding: 10px 20px 10px 0;
+    padding: 10px 15% 10px 0;
 }
 
-#footnotes2 {
-    width: 20%;
+#footnotes {
+    align-items: flex-end;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+    justify-content: space-between;
+    width: 30px;
+}
+
+.footlocker {
+    height: 49%;
+    width: 100%;
+}
+
+#footlockerA {
+    background: rgba(255, 255, 255, 1) url("../assets/interface/checkers.png") 6px 0 / 280px repeat;
+}
+
+#footlockerB {
+    background: rgba(255, 255, 255, 1) url("../assets/interface/diamonds.png") 3px 0 / 280px repeat;
 }
