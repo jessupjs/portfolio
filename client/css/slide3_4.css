@@ -1,0 +1,116 @@
+
+#slide3, #slide4 {
+    align-items: center;
+    justify-content: center;
+}
+
+#container3, #container4 {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 2.5% 50px 2.5%;
+    width: 88%;
+}
+
+.project {
+    position: relative;
+    width: 100%;
+}
+
+.project {
+    margin: 50px 0 50px 0;
+}
+
+.projectL .proj_title, .projectL .proj_descript {
+    order: 1;
+}
+
+.projectR .proj_title, .projectR .proj_descript {
+    order: 2;
+}
+
+.projectL .proj_circ, .projectL .proj_imagery {
+    order: 2;
+}
+
+.projectR .proj_circ, .projectL .proj_imagery {
+    order: 1;
+}
+
+.proj_bar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.proj_circ {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.proj_circ_green {
+    background-color: rgba(0, 255, 0, 0.75);
+}
+
+.proj_circ_yellow {
+    background-color: rgba(255, 255, 0, 0.75);
+}
+
+.proj_content {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.proj_descript {
+    height: available;
+    padding: 50px 50px 50px 40px;
+    width: 30%;
+}
+
+.proj_digest {
+    padding: 5px 0;
+}
+
+.proj_link {
+    margin: 15px 0 0 0;
+    height: 35px;
+}
+
+.proj_imagery {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.proj_imagery img {
+    margin: 0;
+    object-fit: contain;
+    width: 100%;
+}
+
+.projExt {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.projExt_note {
+    width: 30%;
+}
+
+.projExt_images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.projExt_images img {
+    object-fit: contain;
+    margin: 15px 0;
+    width: 32%;
+}
