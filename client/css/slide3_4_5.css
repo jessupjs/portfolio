@@ -1,10 +1,10 @@
 
-#slide3, #slide4 {
+#slide3, #slide4, #slide5 {
     align-items: center;
     justify-content: center;
 }
 
-#container3, #container4 {
+#container3, #container4, #container5 {
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 0 2.5% 50px 2.5%;
@@ -56,6 +56,10 @@
 
 .proj_circ_yellow {
     background-color: rgba(255, 255, 0, 0.75);
+}
+
+.proj_circ_red {
+    background-color: rgba(255, 0, 0, 0.75);
 }
 
 .proj_content {
